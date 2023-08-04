@@ -8,6 +8,7 @@ This JavaScript Coding quiz application was created for students who wish to tes
 
 This application may access by everyone who wants to take a quiz for fun.
 
+Link to the project - https://kitsarmiento.github.io/Web-APIs-Code-Quiz/
 ## Installation
 
 N/A
