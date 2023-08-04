@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Code Quiz</title>
+    
+</head>
+<body>
+    
+  <body>
+    <header>
+        <div class="header">
+           <!--This top portion of the quiz will allow the user to view the highest score (left side) and Timer (right side)-->
+                <button class="button" id="highsscores">View Highscores</button>
+            </div>
+           
+            <div>
+                <p id="timer"> Time: 75 </p>
+            </div>
+    </header>
+
+    <main>
+    
+            <!--This is the main page where the instruction and start button are place.-->
+            <section>
+            <div class="mainPage" id="mainPage">
+                <div id="intro">
+                    <h1>
+                        Welcome to Coding Quiz Challenge
+                    </h1>
+                    <p id="instruction">
+                        Try to answer the following code-related questions within the time limit.
+                        You are given 75 seconds as your starting timer.
+                        Keep in mind that incorrect answers will penalize your score/time by ten seconds.
+                        <br>
+                        <br>
+                       <span> Good luck and I hope you enjoy the game!</span>
+                    </p>
+                    <br>
+                    <button class="button" id="startBtn">Start Quiz</button>
+            
+                </div>
+            </section>
+            <br>
+            <!--questions and answers area.-->
+            <section >
+                    <div class="questionArea" id="questionaire">
+                        <h2 id ="questionEl">Ask the question</h2>
+                        <ul>
+                            <li><button class ="choicesButton" id="choicesBtn1" value="a">Answer1</button></li>
+                            <li><button class ="choicesButton" id="choicesBtn2" value="b">Answer2</button></li>
+                            <li><button class ="choicesButton" id="choicesBtn3" value="c">Answer3</button></li>
+                            <li><button class ="choicesButton" id="choicesBtn4" value="d">Answer4</button></li>
+                        </ul>
+                    <div>
+
+                    <!--result area - This will indicate if the answer is correct or wrong -->
+                    <div id="result">
+                        <hr>
+                    <!-- See JS code for the result -->
+            
+            </section>
+
+            <!--Result section-->
+            <section >
+                <div class="submitPage" id="submitPage">
+                    <h2 id="gameEnd">Well Done!</h2>
+                    <br>
+                    <p id = "finalScore">Your final score is: </p>
+                    <br>
+                    <p>Enter initials:
+                        <input id="initial">
+                        <button class="button" id="submitBtn">Submit</button>
+                    </p>
+                </div>
+            </section>
+
+            <!--high score section-->
+            <section>
+                <div class="lastPage" id ="highscorePage">
+                    <h2>High Scores</h2>
+                    <div id="scoreRecords"><p>Your record</p></div><br><br>
+                    <div>
+                        <button class="button" id="backBtn">Go back</button>
+                        <button class="button" id="clearBtn">Clear Highscores</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+       
+        
+    </main>
+</body>
+</html>
