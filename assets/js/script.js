@@ -116,24 +116,23 @@ function startGame() {
 }
 
 var choicesButton = document.getElementsByClassName("choicesButton");
-//Event listener
 
-for (var i = 0; choicesButton.length; i++) {
+for (var i = 0; i < choicesButton.length; i++) {
   choicesButton[i].addEventListener("click", function userAnswer(event) {
     event.stopPropagation();
-    if (event.currentTarget.innertext === questionsArr[questionId].answer) {
+    if (event.currentTarget.innerText === questionsArr[questionId].answer) {
       correctAnswer.textContent = "Correct Answer!";
       console.log("Correct Answer!");
     } else {
       incorrectAnswer.textContent = "Wrong Answer!";
-      incorrectAnswer.setAttribute.style.display = red;
+      incorrectAnswer.style.display = "red";
       timeLeft = timeLeft - 10;
-      console.log("incorrect Answer!");
+      console.log("Incorrect Answer!");
     }
     console.log(questionId);
     questionId++;
 
-    if (shuffledQuestions.length > currentQuestionIndex + 1) {
+    if (questionId < shuffledQuestions.length) {
       setQuestion();
     }
   });
