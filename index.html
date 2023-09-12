@@ -10,11 +10,10 @@
     <header>
       <div class="header">
         <!--This top portion of the quiz will allow the user to view the highest score (left side) and Timer (right side)-->
-        <button class="button" id="highsscores">View Highscores</button>
+        <button class="button" id="highScores">View Highscores</button>
       </div>
-
       <div>
-        <p id="timer">Time: 75</p>
+        <p id="timer">Time: <span id="timeLeft">75</span></p>
       </div>
     </header>
 
@@ -31,7 +30,7 @@
               seconds.
               <br />
               <br />
-              <span> Good luck and I hope you enjoy the game!</span>
+              <span>Good luck, and I hope you enjoy the game!</span>
             </p>
             <br />
             <button class="button" id="startBtn">Start Quiz</button>
@@ -65,28 +64,23 @@
               </button>
             </li>
           </ul>
-
           <hr />
-          <!--result area - This will indicate if the answer is correct or wrong -->
           <div id="result"></div>
         </div>
       </section>
-
       <!--Result section-->
       <section>
         <div class="submitPage" id="submitPage">
           <h2 id="gameEnd">Well Done!</h2>
           <br />
-          <p id="finalScore">Your final score is:</p>
-          <br />
-          <p>
-            Enter initials:
-            <input id="initial" />
-            <button class="button" id="submitBtn">Submit</button>
+          <p id="finalScore">
+            Your final score is: <span id="userScore"></span>
           </p>
+          <br />
+          <p>Enter initials: <input id="initial" /></p>
+          <button class="button" id="submitBtn">Submit</button>
         </div>
       </section>
-
       <!--high score section-->
       <section>
         <div class="lastPage" id="highscorePage">
@@ -99,7 +93,8 @@
           </div>
         </div>
       </section>
-      <script src="./assets/js/script.js"></script>
     </main>
+
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
