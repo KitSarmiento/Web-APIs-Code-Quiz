@@ -8,11 +8,7 @@ This JavaScript Coding quiz application was created for students who wish to tes
 
 This application may access by everyone who wants to take a quiz for fun.
 
-<<<<<<< HEAD
-Link to the project - https://kitsarmiento.github.io/Web-APIs-Code-Quiz/
 
-=======
->>>>>>> fd0937d90e4f79b6ebfae2d64b37e8afb8567791
 ## Installation
 
 N/A
@@ -23,17 +19,10 @@ To use the quiz application, please follow the instruction below.
 
 1. Once the user opens the webpage, the front page of the quiz will be presented. The instruction, timer, highest score, and start button are visible on the first page of the webpage.
 
-<<<<<<< HEAD
-2. The user must click the "start" button in order to proceed with the exam. The questionnaire will be presented while the timer starts. If the user answers the correct question, a "correct " comment will show otherwise, it will show "wrong" (note that for every wrong answer, your timer will be deducted by 10 seconds. In the situation that the user runs out of time, the quiz will automatically end.). Another thing to note is that the question will only be presented one by one. The user must answer the current question prior to moving forward to the next one.
-
-=======
-![Screenshot1](https://github.com/KitSarmiento/Web-APIs-Code-Quiz/assets/135483936/0660b29f-2c52-499c-a8da-36f774180ebf)
 
 2. The user must click the "start" button in order to proceed with the exam. The questionnaire will be presented while the timer starts. If the user answers the correct question, a "correct " comment will show otherwise, it will show "wrong" (note that for every wrong answer, your timer will be deducted by 10 seconds. In the situation that the user runs out of time, the quiz will automatically end.). Another thing to note is that the question will only be presented one by one. The user must answer the current question prior to moving forward to the next one.
 
-![Screenshot2](https://github.com/KitSarmiento/Web-APIs-Code-Quiz/assets/135483936/e453fd95-f827-437f-87ac-c55d84246d04)
 
->>>>>>> fd0937d90e4f79b6ebfae2d64b37e8afb8567791
 3. Once the user reaches the end of the quiz, the webpage will show the user's score and will ask for his/her initials to register his current score to the system.
 
 ## Credits
